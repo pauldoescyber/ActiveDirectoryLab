@@ -72,6 +72,12 @@ of RAM to my windows server.
   </li>
   <br />
   <br />
+   <li>Next we will carry out processor allocation.Still depending on your computers capabilities you will assign a number of cores to your virtual machine
+    for me I assigned 2 cores out my possible 8 which worked well for me. To do this go to Settings > System >  processor
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/08cb0e88-c10f-4635-8757-387a2e8faefa" height ="80%" width ="90%" alt ="Allocating the number of processors">
+  </li>
+  <br />
+  <br />
  
  </ol>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
