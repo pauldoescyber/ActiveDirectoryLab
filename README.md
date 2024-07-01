@@ -68,14 +68,16 @@ of RAM to my windows server.
   </li>
   <br />
   <br />
-   <li>Next we will carry out processor allocation.Still depending on your computers capabilities you will assign a number of cores to your virtual machine
-    for me I assigned 2 cores out my possible 8 which worked well for me. To do this go to Settings > System >  processor
-   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/08cb0e88-c10f-4635-8757-387a2e8faefa" height ="80%" width ="90%" alt ="Allocating the number of processors">
+   <li>
+    Next we will carry out processor allocation,depending on your computer's capabilities you will assign a number of cores to your virtual machine
+    for me I assigned 2 cores out my possible 8 which worked well for me.To do this go to Settings > System > Processor
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/08cb0e88-c10f-4635-8757-387a2e8faefa" height ="80%" width ="90%" alt="Allocating the number of processors">
   </li>
   <br />
   <br />
-   <li>Next we will carry out processor allocation.Still depending on your computers capabilities you will assign a number of cores to your virtual machine
-    for me I assigned 2 cores out my possible 8 which worked well for me. To do this go to Settings > System >  processor
+   <li>Next we will set two our DC to have two NICS,one for external conncectivty and one  for the internal domain members.We do this by going to Settings >
+    Network once here we will find one adapter(under adapter 1) and it will be for NAT purposes, this will be the NIC used for an external conncection    to        the internet. We will select adapter 2 to add an extra NIC (adapter 2) and the purpose for the NIC should be internet as illustrated the figure below
+   
    <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/08cb0e88-c10f-4635-8757-387a2e8faefa" height ="80%" width ="90%" alt ="Allocating the number of processors">
   </li>
   <br />
