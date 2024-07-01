@@ -3,8 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-In this lab, I replicated a small office or business enterprise by using virual machines (virtual box) to create a domain controller with two NICs (windows server 2019) and a client host on the network (Windows 10). On the domain controller I configured DNS, DHCP, NAT and also made my own domain in which  a user could conncet
-to.
+In this lab, I replicated a small office  network by using virual machines (virtual box) to create a domain controller with two NICs (windows server 2019) and a client host on the network (Windows 10). On the domain controller I configured DNS, DHCP, AD DS and also made my own domain in which  a user could conncect and be a part of.The domain controller was used as the default gateway for devices in the domain.I also used a powershell script to generate users (about a thousand users) that would be part of the domain using powershell.
 <br />
 
 
@@ -18,11 +17,11 @@ to.
 - <b>Windows 10</b> (21H2)
 - <b>Windows server 2019 </b>
 
-<h2>PROJECT WALK THROUGH:</h2>
+<h2>PROJECT OVERVIEW:</h2>
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="ADlab project overview"/>
 <br />
 <br />
 Select the disk:  <br/>
