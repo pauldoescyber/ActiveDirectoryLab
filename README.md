@@ -25,11 +25,12 @@ Project overview: <br/>
 <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/2b73d24d-2ec7-4fab-99d7-941bb4bb33d7" height="80%" width="80%" alt="ADlab project overview"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The first thing to do is download <a href="https://www.virtualbox.org/wiki/Downloads">virtual box</a> depending on the version of
+ your OS <br/>
+<img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/a38863c2-1a61-4622-b27f-33e61ae99d3f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
+Next we will download <a href='https://www.microsoft.com/en-us/software-download/windows10ISO'>windows 10</a> ISO that will serve as the client... <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
