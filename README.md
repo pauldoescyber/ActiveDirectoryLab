@@ -32,11 +32,12 @@ The first thing to do is download <a href="https://www.virtualbox.org/wiki/Downl
 <br />
 <br />
 Next we will download <a href='https://www.microsoft.com/en-us/software-download/windows10ISO'>windows 10</a> ISO that will serve as the client... <br/>
-<img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/27cc0f01-e95b-4758-b677-6fc7bd06477a" height="80%" width="80%" alt="Downloading Windows 10 ISO"/>
+<img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c0dc0220-945b-489b-b490-94c3dca9ad61"
+ height="80%" width="80%" alt="Downloading Windows 10 ISO"/>
 <br />
 <br />
 Next we will download <a href ="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows server 2019 ISO </a>   <br/>
-<img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/d8e2c9f0-d614-4bb3-b5d2-4224a37ad39f" height="80%" width="80%" alt="Downloading Windows server 2019"/>
+<img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/1e6a9319-74ac-4a84-8076-e31fdd23b719" height="80%" width="80%" alt="Downloading Windows server 2019"/>
 <br />
 <br />
 The next step will be to set up our virtual machine using virtual box and  we will set up the Domain controller first:  <br/>
