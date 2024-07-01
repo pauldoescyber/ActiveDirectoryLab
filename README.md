@@ -21,7 +21,7 @@ In this lab, I replicated a small office  network by using virtual machines (vir
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="ADlab project overview"/>
+<img src="https://imgur.com/a/uYL8Xxc" height="80%" width="80%" alt="ADlab project overview"/>
 <br />
 <br />
 Select the disk:  <br/>
