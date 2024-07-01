@@ -40,17 +40,33 @@ Next we will download <a href ="https://www.microsoft.com/en-us/evalcenter/downl
 <br />
 The next step will be to set up our virtual machine using virtual box and  we will set up the Domain controller first:  <br/>
  This will include the following series of steps:
+ <br />
+ <br />
  <ol>
   <li>Open virtual box and name your Domain controller DC or domain_controller it really doesn't matter.Also while in this window ensure the version portion is selected as Other Windows
-   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/fa3a56dd-a3df-4910-afd2-c96a42fddc7d" height ="80%" width ="80% alt ="Naming your domain controller">
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/fa3a56dd-a3df-4910-afd2-c96a42fddc7d" height ="80%" width ="90%" alt ="Naming your domain controller">
   </li>
-   <li>On the version portion of this window ensure the version selcted is "Other Windows"
-   <img src="" height ="80%" width ="80% alt ="Naming your domain controller">
+  <br/>
+  <br />
+   <li>Next is RAM allocation here it depends on your device.. considering later on in this project we will need to have both your DC and Client runnig I would suggest being conservative 
+    with your RAM however for  the most part we alternate between VM's so for me with 8GB of ram I decied to allocate 2GB 
+of RAM to my windows server.
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/6fd66870-a7df-48b9-b3d6-74cc2d5cf732" height ="80%" width ="90%" alt ="RAM ALLOCATION">
   </li>
-  <li>On the version portion of this window ensure the version selcted is "Other Windows"
-   <img src="" height ="80%" width ="80% alt ="Naming your domain controller">
+  <br />
+  <br />
+  <li>Click on continue for the reminder of the options , do not change anything yet until you create your vm,  your end result should be something like this.. show below"
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/03669911-3842-4cb4-bf61-1e43eafbe1d1" height ="80%" width ="90%" alt ="Virtual machine created without an OS">
   </li>
-  
+  <br />
+  <br />
+   <li>Here we will go to Settings > General > Advanced and change the Shared Clipboard and drag and drop properties to bidrectional incase we want to copy something from our main 
+    PC to our virtual machine."
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/5b763245-7c32-4626-b3a1-b2b0676ce69e" height ="80%" width ="90%" alt ="Naming your domain controller">
+  </li>
+  <br />
+  <br />
+ 
  </ol>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
