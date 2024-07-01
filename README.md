@@ -28,7 +28,7 @@ Project overview: <br/>
 <br />
 The first thing to do is download <a href="https://www.virtualbox.org/wiki/Downloads">virtual box</a> depending on the version of
  your OS <br/>
-<img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/a38863c2-1a61-4622-b27f-33e61ae99d3f" height="80%" width="80%" alt="Downloading virtual box"/>
+<img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/ac28e79d-b991-48b2-a4f5-41fe060cc252" height="80%" width="80%" alt="Downloading virtual box"/>
 <br />
 <br />
 Next we will download <a href='https://www.microsoft.com/en-us/software-download/windows10ISO'>windows 10</a> ISO that will serve as the client... <br/>
