@@ -14,14 +14,15 @@ In this lab, I replicated a small office  network by using virtual machines (vir
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10</b> (21H2) 
+
 - <b>Windows server 2019 </b>
 
 <h2>PROJECT OVERVIEW:</h2>
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/HY66dyJ_d.jpg?maxwidth=520&shape=thumb&fidelity=high" height="80%" width="80%" alt="ADlab project overview"/>
+<img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/2b73d24d-2ec7-4fab-99d7-941bb4bb33d7" height="80%" width="80%" alt="ADlab project overview"/>
 <br />
 <br />
 Select the disk:  <br/>
