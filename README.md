@@ -105,8 +105,18 @@ of RAM to my DC.
     </li>
   <br />
   <br />
-   <li>Click on Next until you arrive at the window where you will be prompted
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/900f03a4-7411-40d6-8b76-7abc8ca3b64b" height ="80%" width ="90%" alt ="Clicking on Icon folder">
+   <li>Click on Next until you arrive at the window where you will be prompted for a pasword in the intial login and here place the password as  "Password1" for all passwords in the lab.
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/2a468d90-a5e9-476a-8282-338fdf40699e" height ="80%" width ="90%" alt ="Clicking on Icon folder">
+    </li>
+  <br />
+  <br />
+   <li>Once you set the password to unlock your server you need to input control alt delete.However this won't be possible from your host machine, hence the way to do this is input>keyboard>insert control+alt+delete as shown below
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/a5c4e016-6a17-4dda-8b8c-5b2beba5204d" height ="80%" width ="90%" alt ="Entering your virual machine">
+    </li>
+  <br />
+  <br />
+   <li>The next step would be to install Virtual Box additions to make your user experience smooth, for this we will go
+        <img src="" height ="80%" width ="90%" alt ="Entering your virual machine">
     </li>
   <br />
   <br />
@@ -121,7 +131,8 @@ Observe the wiped disk:  <br/>
 <!--
  ```diff
 - text in red
-+ text in green
++ text in green![Unlocking your vm](https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/cd882f28-f88d-4ae2-8cee-943449d249e3)
+
 ! text in orange
 # text in gray
 @@ text in purple (and bold)@@
