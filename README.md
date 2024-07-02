@@ -115,8 +115,13 @@ of RAM to my DC.
     </li>
   <br />
   <br />
-   <li>The next step would be to install Virtual Box guest CD additions to make your user experience smooth,while you use the vm. To do this click on devices
-        <img src="" height ="80%" width ="90%" alt ="Entering your virual machine">
+   <li>The next step would be to install Virtual Box guest CD additions to make your user experience smooth,while you use the vm. To do this click on devices followed by insert Guest additions CD image.
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/924f759b-6a53-4e40-83b5-91435786b2bf" height ="80%" width ="90%" alt ="Entering your virual machine">
+    </li>
+  <br />
+  <br />
+   <li>Once the additonal cd image has finished runnig opt to manually reboot later. THis is because the restart now option did not effect the desired results.This is illustrated bellow.
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/1ecb376f-b98b-469e-9a4d-b4941f2b47d1" height ="80%" width ="90%" alt ="Entering your virual machine">
     </li>
   <br />
   <br />
