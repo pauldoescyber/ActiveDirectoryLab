@@ -116,7 +116,7 @@ of RAM to my DC.
   <br />
   <br />
    <li>The next step would be to install Virtual Box guest CD additions to make your user experience smooth,while you use the vm. To do this click on devices followed by insert Guest additions CD image.
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/924f759b-6a53-4e40-83b5-91435786b2bf" height ="80%" width ="90%" alt ="Entering your virual machine">
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/924f759b-6a53-4e40-83b5-91435786b2bf" height ="80%" width ="90%" alt ="Installing Guest additions CD image">
     </li>
   <br />
   <br />
@@ -125,8 +125,14 @@ of RAM to my DC.
     </li>
   <br />
   <br />
-  <li>Once the additonal cd image has finished runnig opt to manually reboot later. THis is because the restart now option did not effect the desired results.This is illustrated bellow.
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/1ecb376f-b98b-469e-9a4d-b4941f2b47d1" height ="80%" width ="90%" alt ="Entering your virual machine">
+  <li>The next step will be to rename the two NICS on the virtual machine, first by identifying which NIC was responsible for what either the external that is responsible for conncetion to the internet or the internal that will act as the connection point for users that connect to this domain.
+    To navigate to this we will click on the ethernet icon at right side of the task bar. Next click on network and then change adapter options.
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/19e342ad-c8fd-4f1f-8135-c2040b375fa4" height ="80%" width ="90%" alt ="Entering your virual machine">
+    </li>
+  <br />
+  <br />
+   <li>The next step is to identify between the two NICS which one is for the internal network and which one is for the external network.How we will do this is by clicking on one of the NICS > status > properties 
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/19e342ad-c8fd-4f1f-8135-c2040b375fa4" height ="80%" width ="90%" alt ="Renaming the NICS based on functionality">
     </li>
   <br />
   <br />
