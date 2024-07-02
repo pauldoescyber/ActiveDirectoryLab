@@ -115,7 +115,7 @@ of RAM to my DC.
     </li>
   <br />
   <br />
-   <li>The next step would be to install Virtual Box additions to make your user experience smooth, for this we will go
+   <li>The next step would be to install Virtual Box guest CD additions to make your user experience smooth,while you use the vm. To do this click on devices
         <img src="" height ="80%" width ="90%" alt ="Entering your virual machine">
     </li>
   <br />
