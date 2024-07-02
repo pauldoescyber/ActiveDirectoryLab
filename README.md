@@ -96,10 +96,20 @@ of RAM to my DC.
      <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/718989d9-c010-46f3-aa9a-6fe9780f1646" height ="80%" width ="90%" alt ="Selecting your server 19 ISO">
    <br />
     <br />
+    <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/9cc880a7-1b38-4c43-bcfb-4c3f963e9e91" height ="80%" width ="90%" alt ="Final stage in selecting ISO for your pc">
+   <br />
+    <br />
   </li>
+    <li>Next will be setting up the server and initial configurations, the first thing to note is the OS to pick should be window's desktop
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/900f03a4-7411-40d6-8b76-7abc8ca3b64b" height ="80%" width ="90%" alt ="Clicking on Icon folder">
+    </li>
   <br />
   <br />
- 
+   <li>Click on Next until you arrive at the window where you will be prompted
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/900f03a4-7411-40d6-8b76-7abc8ca3b64b" height ="80%" width ="90%" alt ="Clicking on Icon folder">
+    </li>
+  <br />
+  <br />
  </ol>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
