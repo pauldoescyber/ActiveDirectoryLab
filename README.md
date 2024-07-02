@@ -125,14 +125,15 @@ of RAM to my DC.
     </li>
   <br />
   <br />
-  <li>The next step will be to rename the two NICS on the virtual machine, first by identifying which NIC was responsible for what either the external that is responsible for conncetion to the internet or the internal that will act as the connection point for users that connect to this domain.
+  <li>The next step will be to rename the two NICS on the virtual machine, first by identifying which NIC was responsible for what.
     To navigate to this we will click on the ethernet icon at right side of the task bar. Next click on network and then change adapter options.
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/19e342ad-c8fd-4f1f-8135-c2040b375fa4" height ="80%" width ="90%" alt ="Entering your virual machine">
     </li>
   <br />
   <br />
-   <li>The next step is to identify between the two NICS which one is for the internal network and which one is for the external network.How we will do this is by clicking on one of the NICS > status > properties 
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/19e342ad-c8fd-4f1f-8135-c2040b375fa4" height ="80%" width ="90%" alt ="Renaming the NICS based on functionality">
+   <li>The next step is to identify between the two NICS which one is for the internal network and which one is for the external network.How we will do this is by right clicking on one of the  NICS and then selecting status and then details then observing the addressing information. If the IP addreess
+    on the NIC starts with 10.0. (most probably be 10.0.2.15) this would indicate the NIC is external and for connectivity to the internet. Right click on the said NIC and rename it to _INTERNET_ for ease of identification and future use. THis has been illustrated below.
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/f4bafe8b-5216-4ebd-89dd-c9a8b60c29bd" height ="80%" width ="90%" alt ="Renaming the NICS based on functionality">
     </li>
   <br />
   <br />
