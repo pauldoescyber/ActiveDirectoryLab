@@ -52,7 +52,7 @@ The next step will be to set up our virtual machine using virtual box and  we wi
   <br />
    <li>Next is RAM allocation here it depends on your device.. considering later on in this project we will need to have both your DC and Client runnig I would suggest being conservative 
     with your RAM however for  the most part we alternate between the virtual machines so for me with 8GB of ram I decied to allocate 2GB 
-of RAM to my windows server.
+of RAM to my DC.
    <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/6fd66870-a7df-48b9-b3d6-74cc2d5cf732" height ="80%" width ="90%" alt ="RAM ALLOCATION">
   </li>
   <br />
@@ -62,7 +62,7 @@ of RAM to my windows server.
   </li>
   <br />
   <br />
-   <li>Here we will go to Settings > General > Advanced and change the Shared Clipboard and drag and drop properties to bidrectional incase we want to copy something from our main 
+   <li>Next we will go to Settings > General > Advanced and change the Shared Clipboard and drag and drop properties to bidrectional incase we want to copy something from our main 
     PC to our virtual machine."
    <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/5b763245-7c32-4626-b3a1-b2b0676ce69e" height ="80%" width ="90%" alt ="Changing shared clipboard and drag and drop to bidirectional">
   </li>
@@ -75,10 +75,27 @@ of RAM to my windows server.
   </li>
   <br />
   <br />
-   <li>Next we will set two our DC to have two NICS,one for external conncectivty and one  for the internal domain members.We do this by going to Settings >
-    Network once here we will find one adapter(under adapter 1) and it will be for NAT purposes, this will be the NIC used for an external conncection    to        the internet. We will select adapter 2 to add an extra NIC (adapter 2) and the purpose for the NIC should be internet as illustrated the figure below
+   <li>Next we will set our DC to have two NICS,one for external conncectivty and one  for the internal domain members.We do this by going to Settings >
+    Network once here we will find one adapter(under adapter 1) and it will be for NAT purposes, this will be the NIC used for an external conncection    to        the internet. We will select adapter 2 to add an extra NIC (adapter 2) we do this by checking the enable adapter box, and the purpose for the second NIC should be internetal Network as illustrated the figure below
    
-   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/08cb0e88-c10f-4635-8757-387a2e8faefa" height ="80%" width ="90%" alt ="Allocating the number of processors">
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c726d180-65d8-4a55-810f-d7a52aaec680" height ="80%" width ="90%" alt ="Allocating the number of processors">
+  </li>
+  <br />
+  <br />
+   <li>Next we will set start our Domain controller/DC (either by double clicking the machine or the power button next to it) and upon starting it, it will
+    basically prompt us for an Operating System as our machine is on but we haven't given it an OS yet so what we will do is we will click on the 
+    small icon denoting folders and navigate to where we stored our Server 19 ISO(that we downloaded earlier) and it will probably be saved under a different name
+    and we will select it and have it as our disk image, and finallly we will press start.As shown in the series of images below.
+   
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/fcdaf33d-0689-4484-a908-30cd42d1f510" height ="80%" width ="90%" alt ="Clicking on Icon folder">
+   <br />
+   <br />
+ <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/05c4adc2-f5e1-436c-9bc8-80b4e32595a8" height ="80%" width ="90%" alt ="Clicking on the add button to navigate to the downloaded ISO">
+   <br />
+    <br />
+     <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/718989d9-c010-46f3-aa9a-6fe9780f1646" height ="80%" width ="90%" alt ="Selecting your server 19 ISO">
+   <br />
+    <br />
   </li>
   <br />
   <br />
