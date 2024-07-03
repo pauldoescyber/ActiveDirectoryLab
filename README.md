@@ -139,7 +139,7 @@ of RAM to my DC.
   <br />
      <li>The next step will be to rename the second NIC to x_internal(it can be anyname you so choose ..) to confirm it is the internal NIC when you inspect its IP address you should find an IP of 169.254.196.74 or something like that which would denote that the NIC
       was looking for a DHCP server and was unable to get one.Just to confirm you have the right NIC.
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/ec45f0f6-1bf1-4556-be8b-e219a7a3d8be)" height ="80%" width ="90%" alt ="Renaming the INTERNAL NIC">
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/e690bd49-c4cb-4e33-93d1-d8270673dd21" height ="80%" width ="90%" alt ="Renaming the INTERNAL NIC">
     </li>
   <br />
   <br />
