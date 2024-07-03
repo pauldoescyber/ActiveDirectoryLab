@@ -139,7 +139,7 @@ of RAM to my DC.
   <br />
      <li>The next step will be to rename the second NIC to x_internal(it can be anyname you so choose ..) to confirm it is the internal NIC when you inspect its IP address you should find an IP of 169.254.196.74 or something like that which would denote that the NIC
       was looking for a DHCP server and was unable to get one.Just to confirm you have the right NIC.
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/e690bd49-c4cb-4e33-93d1-d8270673dd21" height ="80%" width ="90%" alt ="Renaming the INTERNAL NIC">
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/e690bd49-c4cb-4e33-93d1d8270673dd21" height ="80%" width ="90%" alt ="Renaming the INTERNAL NIC">
     </li>
   <br />
   <br />
@@ -167,14 +167,22 @@ of RAM to my DC.
     </li>
   <br />
   <br />
-   <li>Still on your windows server manager you will notice a yellow caution sign on the flag. As demonstrated below, this flag is shows that we installed the softwate but we did not actually create/configure our domain and hence this needs to be done as well.The flag is shown on the figure below
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/074ed03eeec2-4154-9bad-55f0c9078b09" height ="80%" width ="90%" alt ="Flag denoting lack of postdeployment configuration">
+   <li>Still on your windows server manager you will notice a yellow caution sign on the flag. As demonstrated below, this flag  shows that we installed the softwate but we did not actually create/configure our domain and hence this needs to be done as well.The flag is shown on the figure below
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/bfe158d1-c07c-418e-9e5b-9766947af6cc" height ="80%" width ="90%" alt ="Flag denoting lack of postdeployment configuration">
     </li>
   <br />
   <br />
-   <li>The next step will be post deployment configuration, here we will actually create the domain via the following steps:
-    I will inc
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/074ed03eeec2-4154-9bad-55f0c9078b09" height ="80%" width ="90%" alt ="Flag denoting lack of postdeployment configuration">
+   <li>The next step will be post deployment configuration, here we will actually create the domain via the following steps: 1. Click the yellow caution sign and select promote this server to a doman controller. 2. Add new forest 3. Name the domain mydomain.com(can be named anything in reality but just for the sake of the lab we shall name it mydomain.com) 4. Click on Next, when asked for a Password enter "Password 1" as we discussed earlier all passwords in the lab to be password 1. 5. Click on next until the Installation point, When it finishes intalling it will automatically restart the computer for us.
+    </li>
+  <br />
+  <br />
+  <li>Once the virtual machine has restarted you will notice the login page is different as show below.This would mean the previous step was conducted successfully. i.e successful configuration of AS DS
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c2802d87-c20f-4df9-a7c9-4b0eae498794" height ="80%" width ="90%" alt ="AD-DS configured successfuly">
+    </li>
+  <br />
+  <br />
+  <li>The next step would be to 
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c2802d87-c20f-4df9-a7c9-4b0eae498794" height ="80%" width ="90%" alt ="AD-DS configured successfuly">
     </li>
   <br />
   <br />
