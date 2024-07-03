@@ -144,13 +144,22 @@ of RAM to my DC.
   <br />
   <br />
      <li>The next step will be to rename the PC, Right click start Menu > System > Click rename this PC(Easiest way to do this you can still go the longer route via settings and about).We can opt to name this "DC"(for domain controller) click Next and Click Restart Now.
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c8360b5d-fdc2-47f9-9b6b-3f2abb0d0078" height ="80%" width ="90%" alt ="Renaming the INTERNAL NIC">
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c8360b5d-fdc2-47f9-9b6b-3f2abb0d0078" height ="80%" width ="90%" alt ="Renaming PC">
     </li>
   <br />
   <br />
-      <li>The next step will be assign an IP address to our internal NIC. We will click on the ethernet ICON on the taskbar on the bottom and navigate to our two NICS(by clicking on change adapter options).Follow the steps in the image
-       below
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/6d2cc6a7-9799-4162-8494-068a35b6cad6" height ="80%" width ="90%" alt ="IP allocation for internal NIC">
+      <li>The next step will be assign an IP address to our internal NIC as well as our DNS server.We will click on the ethernet ICON on the taskbar on the bottom and navigate to our two NICS(by clicking on change adapter options).Follow the steps in the image
+       below from step one through six.
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/898a0ce2-1137-4689-b106-9efb5dbba035" height ="80%" width ="90%" alt ="IP allocation for internal NIC as well as DNS server">
+    </li>
+  <br />
+  <br />
+  <li>The next step will be to install Active Directory domain services (AD DS) and then create a domain.On the server manager , 1.click add roles and features, 2.click on next until when asked which server you would like to install the feature on and as you have only one server click on it and select next as illustrated. 3.
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/671ff7eb-b7c3-4689-bcd1-42e548078e67" height ="80%" width ="90%" alt ="Adding
+         roles and features">
+   <br />
+    <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/8ec87a9e-aec9-4897-8ff7-0af817bf5eaa" height ="80%" width ="90%" alt ="Selecting
+     the server to install it on.">
     </li>
   <br />
   <br />
