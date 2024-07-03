@@ -154,12 +154,27 @@ of RAM to my DC.
     </li>
   <br />
   <br />
-  <li>The next step will be to install Active Directory domain services (AD DS) and then create a domain.On the server manager , 1.click add roles and features, 2.click on next until when asked which server you would like to install the feature on and as you have only one server click on it and select next as illustrated. 3.
+  <li>The next step will be to install Active Directory domain services (AD DS) and then create a domain.On the server manager , 1.click add roles and features, 2.click on next until when asked which server you would like to install the feature on and as you have only one server click on it and select next as illustrated. 3.Click on next and check the Active Directory Domain services box 4.Click Next until you arrive at the installing page and then click install. The successful installation page has been demonstrated as well
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/671ff7eb-b7c3-4689-bcd1-42e548078e67" height ="80%" width ="90%" alt ="Adding
          roles and features">
    <br />
     <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/8ec87a9e-aec9-4897-8ff7-0af817bf5eaa" height ="80%" width ="90%" alt ="Selecting
      the server to install it on.">
+   <br />
+    <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/83314597-4931-4b97-9e23-ddbbedcc8033" height ="80%" width ="90%" alt ="Checking the AD DS box.">
+   <br />
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/0124e4c9-f283-4e1f-92d7-283455b59498" height ="80%" width ="90%" alt ="Successful AD DS installation role.">
+    </li>
+  <br />
+  <br />
+   <li>Still on your windows server manager you will notice a yellow caution sign on the flag. As demonstrated below, this flag is shows that we installed the softwate but we did not actually create/configure our domain and hence this needs to be done as well.The flag is shown on the figure below
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/074ed03eeec2-4154-9bad-55f0c9078b09" height ="80%" width ="90%" alt ="Flag denoting lack of postdeployment configuration">
+    </li>
+  <br />
+  <br />
+   <li>The next step will be post deployment configuration, here we will actually create the domain via the following steps:
+    I will inc
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/074ed03eeec2-4154-9bad-55f0c9078b09" height ="80%" width ="90%" alt ="Flag denoting lack of postdeployment configuration">
     </li>
   <br />
   <br />
