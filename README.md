@@ -100,7 +100,7 @@ of RAM to my DC.
    <br />
     <br />
   </li>
-    <li>Next will be setting up the server and initial configurations, the first thing to note is the OS to pick should be window's desktop
+    <li>Next will be setting up the server and initial configurations, the first thing to note is the OS to pick should be Window's Server Standard Evolution 2019(Desktop Experience)
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/900f03a4-7411-40d6-8b76-7abc8ca3b64b" height ="80%" width ="90%" alt ="Clicking on Icon folder">
     </li>
   <br />
