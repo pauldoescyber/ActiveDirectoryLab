@@ -150,7 +150,7 @@ of RAM to my DC.
   <br />
       <li>The next step will be assign an IP address to our internal NIC. We will click on the ethernet ICON on the taskbar on the bottom and navigate to our two NICS(by clicking on change adapter options).Follow the steps in the image
        below
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/6caa8d28-8160-4971-a593-78398daf5953" height ="80%" width ="90%" alt ="IP allocation for internal NIC">
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/6d2cc6a7-9799-4162-8494-068a35b6cad6" height ="80%" width ="90%" alt ="IP allocation for internal NIC">
     </li>
   <br />
   <br />
