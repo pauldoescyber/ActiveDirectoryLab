@@ -70,13 +70,13 @@ of RAM to my DC.
   <br />
    <li>
     Next we will carry out processor allocation,depending on your computer's capabilities you will assign a number of cores to your virtual machine
-    for me I assigned 2 cores out my possible 8 which worked well for me.To do this go to Settings > System > Processor
+    for me I assigned 2 cores out of a  possible 8 which worked well for me.To do this go to Settings > System > Processor
    <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/08cb0e88-c10f-4635-8757-387a2e8faefa" height ="80%" width ="90%" alt="Allocating the number of processors">
   </li>
   <br />
   <br />
    <li>Next we will set our DC to have two NICS,one for external conncectivty and one  for the internal domain members.We do this by going to Settings >
-    Network once here we will find one adapter(under adapter 1) and it will be for NAT purposes, this will be the NIC used for an external conncection    to        the internet. We will select adapter 2 to add an extra NIC (adapter 2) we do this by checking the enable adapter box, and the purpose for the second NIC should be internetal Network as illustrated the figure below
+    Network once here we will find one adapter(under adapter 1) and it will be for NAT purposes, this will be the NIC used for an external conncection    to        the internet. We will select adapter 2 to add an extra NIC (adapter 2) we do this by checking the enable adapter box, and the purpose for the second NIC should be internal Network as illustrated the figure below
    
    <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c726d180-65d8-4a55-810f-d7a52aaec680" height ="80%" width ="90%" alt ="Allocating the number of processors">
   </li>
