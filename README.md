@@ -121,19 +121,25 @@ of RAM to my DC.
   <br />
   <br />
    <li>Once the additonal cd image has finished runnig opt to manually reboot later. THis is because the restart now option did not effect the desired results.This is illustrated bellow.
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/1ecb376f-b98b-469e-9a4d-b4941f2b47d1" height ="80%" width ="90%" alt ="Entering your virual machine">
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/1ecb376f-b98b-469e-9a4d-b4941f2b47d1" height ="80%" width ="90%" alt ="Checking reboot manually option after CD image is installed">
     </li>
   <br />
   <br />
   <li>The next step will be to rename the two NICS on the virtual machine, first by identifying which NIC was responsible for what.
     To navigate to this we will click on the ethernet icon at right side of the task bar. Next click on network and then change adapter options.
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/19e342ad-c8fd-4f1f-8135-c2040b375fa4" height ="80%" width ="90%" alt ="Entering your virual machine">
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/19e342ad-c8fd-4f1f-8135-c2040b375fa4" height ="80%" width ="90%" alt ="Navigating to NICS">
     </li>
   <br />
   <br />
    <li>The next step is to identify between the two NICS which one is for the internal network and which one is for the external network.How we will do this is by right clicking on one of the  NICS and then selecting status and then details then observing the addressing information. If the IP addreess
     on the NIC starts with 10.0. (most probably be 10.0.2.15) this would indicate the NIC is external and for connectivity to the internet. Right click on the said NIC and rename it to _INTERNET_ for ease of identification and future use. THis has been illustrated below.
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/f4bafe8b-5216-4ebd-89dd-c9a8b60c29bd" height ="80%" width ="90%" alt ="Renaming the NICS based on functionality">
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/037f6dda-d613-41c5-8b1f-938c2d7fc9f4" height ="80%" width ="90%" alt ="Renaming the EXTERNAL NIC">
+    </li>
+  <br />
+  <br />
+     <li>The next step will be to rename the second NIC to x_internal(it can be anyname you so choose ..) to confirm it is the internal NIC when you inspect its IP address you should find an IP of 169.254.196.74 or something like that which would denote that the NIC
+      was looking for a DHCP server and was unable to get one.Just to confirm you have the right NIC.
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/ec45f0f6-1bf1-4556-be8b-e219a7a3d8be)" height ="80%" width ="90%" alt ="Renaming the INTERNAL NIC">
     </li>
   <br />
   <br />
