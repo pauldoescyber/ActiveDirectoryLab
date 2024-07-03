@@ -148,6 +148,12 @@ of RAM to my DC.
     </li>
   <br />
   <br />
+      <li>The next step will be assign an IP address to our internal NIC. We will click on the ethernet ICON on the taskbar on the bottom and navigate to our two NICS(by clicking on change adapter options).Follow the steps in the image
+       below
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/6caa8d28-8160-4971-a593-78398daf5953" height ="80%" width ="90%" alt ="IP allocation for internal NIC">
+    </li>
+  <br />
+  <br />
  </ol>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
