@@ -105,7 +105,7 @@ of RAM to my DC.
     </li>
   <br />
   <br />
-   <li>Click on Next until you arrive at the window where you will be prompted for a pasword in the intial login and here place the password as  "Password1" for all passwords in the lab.
+   <li>Click on Next until you arrive at the window where you will be prompted for a pasword in the intial login and here place the password as  "Password1"(Do this for all the passwords in the lab.)
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/2a468d90-a5e9-476a-8282-338fdf40699e" height ="80%" width ="90%" alt ="Clicking on Icon folder">
     </li>
   <br />
