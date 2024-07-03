@@ -143,6 +143,11 @@ of RAM to my DC.
     </li>
   <br />
   <br />
+     <li>The next step will be to rename the PC, Right click start Menu > System > Click rename this PC(Easiest way to do this you can still go the longer route via settings and about).We can opt to name this "DC"(for domain controller) click Next and Click Restart Now.
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c8360b5d-fdc2-47f9-9b6b-3f2abb0d0078" height ="80%" width ="90%" alt ="Renaming the INTERNAL NIC">
+    </li>
+  <br />
+  <br />
  </ol>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
