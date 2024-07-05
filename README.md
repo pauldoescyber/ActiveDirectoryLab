@@ -198,6 +198,12 @@ of RAM to my DC.
          <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/1af27652-7cf5-44ec-b843-865bad93558d" height ="80%" width ="90%" alt ="Creating a new user">
      <br />
     <br />
+         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/49e823c4-aef8-4d6c-adaf-e092cc21150b" height ="80%" width ="90%" alt ="Naming the Admin">
+     <br />
+    <br />
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/f1fe8db2-ff64-4783-a4d2-a47844108989" height ="80%" width ="90%" alt ="Creating Password for the Admin">
+     <br />
+    <br />
    
    </li>
   <br />
