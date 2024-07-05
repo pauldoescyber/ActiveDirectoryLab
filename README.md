@@ -195,6 +195,9 @@ of RAM to my DC.
            <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/ee270203-f296-4b36-bf30-646120dfc437" height ="80%" width ="90%" alt ="Renaming the Organizational Unit _ADMINS">
      <br />
     <br />
+         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/1af27652-7cf5-44ec-b843-865bad93558d" height ="80%" width ="90%" alt ="Creating a new user">
+     <br />
+    <br />
    
    </li>
   <br />
