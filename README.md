@@ -180,12 +180,12 @@ of RAM to my DC.
     </li>
   <br />
   <br />
-  <li>Once the virtual machine has restarted you will notice the login page is different as show below.This would mean the previous step was conducted successfully. i.e successful configuration of AS DS
+  <li>Once the virtual machine has restarted you will notice the login page is different as show below.This would mean the previous step was conducted successfully. i.e successful configuration of AS DS. Login with the password Password1 or the password you had precviously placed
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c2802d87-c20f-4df9-a7c9-4b0eae498794" height ="80%" width ="90%" alt ="AD-DS configured successfuly">
     </li>
   <br />
   <br />
-  <li>The next step would be to 
+  <li>The next step would be to create our own dedicated Admin domain account instead of using the built in Admin account. To do this we go to start Admin tools > Active directory Users and Computers. Right click mydomain.com and then New and then create Organizational Unit(An Organizational Unit in Active directory is a subdivision in AD which you can place other users, computers or other organizational units (its kind of like a directory). Name it _ADMINS and uncheck the container from accidental deletion
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c2802d87-c20f-4df9-a7c9-4b0eae498794" height ="80%" width ="90%" alt ="AD-DS configured successfuly">
     </li>
   <br />
