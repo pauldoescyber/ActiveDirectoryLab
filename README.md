@@ -208,6 +208,11 @@ of RAM to my DC.
    </li>
   <br />
   <br />
+    <li>Once we complete the steps above we will have an account however our account will not be an adminstrator account, we need to take do the following to make the account we have just created an admin account.Right click the account we have just created and go to properties.Click  member of, and then click add, and then under the space for enter object names write domain admins and click check. It should resolve to domain admins, click ok, and finally click apply.In my example because I have done it before it does tell me that I can't add it twice but it should work fine for you
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/4c483a7ccb0c-4e40-b1de-594bd72e89ff
+" height ="80%" width ="90%" alt ="Making your user an administrator">
+    </li>
+  <br />
  </ol>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
