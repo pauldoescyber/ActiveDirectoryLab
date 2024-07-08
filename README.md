@@ -208,11 +208,25 @@ of RAM to my DC.
    </li>
   <br />
   <br />
-    <li>Once we complete the steps above we will have an account however our account will not be an adminstrator account, we need to take do the following to make the account we have just created an admin account.Right click the account we have just created and go to properties.Click  member of, and then click add, and then under the space for enter object names write domain admins and click check. It should resolve to domain admins, click ok, and finally click apply.In my example because I have done it before it does tell me that I can't add it twice but it should work fine for you
-   <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="90%" alt="Disk Sanitization Steps"/>
-
-   </video>
+    <li>Once we complete the steps above we will have an account however our account will not be an adminstrator account, we need to take do the following to make the account we have just created an admin account.Right click the account we have just created and go to properties.Click  member of, and then click add, and then under the space for enter object names write domain admins and click check. It should resolve to domain admins, click ok, and finally click apply.In my example because I have done it before it does tell me that I can't add it twice but it should work fine for you.
+     <br />
+     
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/ae6547e9-1e42-4df4-ba8d-88a0ac30142c" height="80%" width="90%" alt="Navigating to User properties"/>
+    <br />
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/38a9632e-8a07-4cf7-9993-a6ee7fa15165" height="80%" width="90%" alt="Navigating to Member of"/>
+   <br />
+   <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/98a850e5-44a6-4d48-bc54-2023458aa807" height="80%" width="90%" alt="Finally creating the admin as user"/>
+   <br />
+   <br />
     </li>
+  <br />
+  <br />
+   <li>To use the newly created admin account sign out of your server and instead of loging in into the my administrator page
+    select other user as show below, and use the user name you had writted down when creating the account, for my lab it was
+    "a-pisaac" and the password we had set for this which we have set for all things in this lab to be password1.
+        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/dd6cb0ca-a2fa-4874-b4f4-4cc1e7bcf4d5" height ="80%" width ="90%" alt ="Flag denoting lack of postdeployment configuration">
+    </li>
+  <br />
   <br />
  </ol>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
