@@ -154,7 +154,7 @@ of RAM to my DC.
   <br />
       <li>The next step will be assign an IP address to our internal NIC as well as our DNS server.We will click on the ethernet ICON on the taskbar on the bottom and navigate to our two NICS(by clicking on change adapter options).Follow the steps in the image
        below from step one through six.
-        <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/898a0ce2-1137-4689-b106-9efb5dbba035" height ="80%" width ="90%" alt ="IP allocation for internal NIC as well as DNS server">
+        <video  height = "80%" width ="90%" controls> <source="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/898a0ce2-1137-4689-b106-9efb5dbba035" type ="video/mp4"> </video>
     </li>
   <br />
   <br />
@@ -185,7 +185,7 @@ of RAM to my DC.
     </li>
   <br />
   <br />
-  <li>The next step would be to create our own dedicated Admin domain account instead of using the built in Admin account. To do this we go to start Admin tools > Active directory Users and Computers. Right click mydomain.com and then New and then create Organizational Unit(An Organizational Unit in Active directory is a subdivision in AD which you can place other users, computers or other organizational units (its kind of like a directory). Name it _ADMINS and uncheck the container from accidental deletion(for convience reasons).Right click on the new OU you have just creates the _ADMINS then click on new and then user. Provide your first and last name, for the user name the best practice is a- followed by  initial of first name, followed by lastname(infull). Press next for the passoword section enter password one just for this lab.Uncheck user must change password in next login and check password never expires box.Click next and on finally click finish. The series of images below convey the following steps.
+  <li>The next step would be to create our own dedicated Admin domain account instead of using the built in Admin account. To do this we go to start Admin tools > Active directory Users and Computers. Right click mydomain.com and then New and then create Organizational Unit(An Organizational Unit in Active directory is a subdivision in AD which you can place other users, computers or other organizational units (its kind of like a directory). Name it _ADMINS and uncheck the container from accidental deletion(for convience reasons).Right click on the new OU you have just creates the _ADMINS then click on new and then user. Provide your first and last name, for the user name the best practice is a- followed by  initial of first name, followed by lastname(in full). Press next for the passoword section enter password one just for this lab.Uncheck user must change password in next login and check password never expires box.Click next and on finally click finish. The series of images below convey the following steps.
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/e2b76986-2bbc-4017-930d-95c01f0f6eb1" height ="80%" width ="90%" alt ="Navigating to AD users and computers">
    <br />
    <br />
