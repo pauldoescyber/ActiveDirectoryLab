@@ -230,13 +230,19 @@ of RAM to my DC.
   <br />
   <br />
   <li>
-   The next thing to do is to configure RAT/NAS (Remote Acess Server/Network Address translation) on your server to allow members of your domain to conncet to the interntet via the domain controller still whilst on the private network. We will go to (in server manager) add roles and features click on next a couple of times, select the current server. For roles select remote access Click on next and check the box for routing. The series of images show the following processes.
+   The next thing to do is to configure RAT/NAS (Remote Acess Server/Network Address translation) on your server to allow members of your domain to conncet to the interntet via the domain controller still whilst on the private network. We will go to (in server manager) add roles and features click on next a couple of times, select the current server. For roles select remote access. Click on next and check the box for routing. Click on next a couple of times then click install The series of images show the following processes.
    <br />
    <br />
    <img src ="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/fef584ba-4763-4a88-bcdb-3a42d74ba860" height ="80%" width ="90%" alt="Click on add roles">
    <br />
    <br />
      <img src ="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/79f76d79-63af-49ad-afb9-0891f2b5ade6" height ="80%" width ="90%" alt="selecting the current server">
+   <br />
+   <br />
+     <img src ="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/058cf46e-edfb-4d9b-ae08-7bbea81d5ff2" height ="80%" width ="90%" alt="checking the RAS Box">
+   <br />
+   <br />
+     <img src ="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/83028ec7-6dd2-446c-a928-5811d194aa7d" height ="80%" width ="90%" alt="Selecting the Routing option under role option">
    <br />
    <br />
   </li>
