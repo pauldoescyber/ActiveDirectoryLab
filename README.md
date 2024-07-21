@@ -44,7 +44,7 @@ The next step will be to set up our virtual machine using virtual box and  we wi
  <br />
  <br />
  <ol>
-  <li>Open virtual box and name your Domain controller DC or domain_controller it really doesn't matter.Also while in this window ensure the version portion is selected as Other Windows
+  <li>Open virtual box and click on the new button.Next you can name your Domain controller DC or domain_controller it really doesn't matter.Also while in this window ensure the version portion is selected as Other Windows
    <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/fa3a56dd-a3df-4910-afd2-c96a42fddc7d" height ="80%" width ="90%" alt ="Naming your domain controller">
   </li>
   <br/>
