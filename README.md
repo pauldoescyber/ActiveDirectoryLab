@@ -27,29 +27,29 @@ Project overview: <br/>
 <br />
  
  # Downloading the enviroment
-The first thing I did is to download <a href="https://www.virtualbox.org/wiki/Downloads">virtual box</a> <br/>
+The first thing I did is to download <a href="https://www.virtualbox.org/wiki/Downloads">virtual box.</a> <br/>
 <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/ac28e79d-b991-48b2-a4f5-41fe060cc252" height="80%" width="80%" alt="Downloading virtual box"/>
 <br />
 <br />
 
  # Downloading the Operating Systems.
- I downloaded the  <a href='https://www.microsoft.com/en-us/software-download/windows10ISO'>windows 10</a> ISO that will serve as the client... <br/>
+ I downloaded the  <a href='https://www.microsoft.com/en-us/software-download/windows10ISO'>windows 10</a> ISO that will serve as the client. <br/>
 <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c0dc0220-945b-489b-b490-94c3dca9ad61"
  height="80%" width="80%" alt="Downloading Windows 10 ISO"/>
 <br />
 <br />
-Next I downloaded the  <a href ="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows server 2019 ISO that will serve as the Domain controller </a>   <br/>
+Next I downloaded the  <a href ="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows server 2019 ISO </a> that will serve as the Domain controller.<br/>
 <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/1e6a9319-74ac-4a84-8076-e31fdd23b719" height="80%" width="80%" alt="Downloading Windows server 2019"/>
 <br />
 <br />
 
 # Setting up the virtual machine.
 Next I set up my virtual machine using virtual box and I set up the Domain controller first:  <br/>
- This will include the following series of steps:
+ This included the following series of steps:
  <br />
  <br />
- <ol>
-  <li>Open virtual box and click on the new button.Next you can name your Domain controller DC or domain_controller it really doesn't matter.Also while in this window ensure the version portion is selected as Other Windows
+
+  <li>Inside virtual box I clicked on the the new button.Next I named my Domain controller DC or domain_controller it really doesn't matter.Also while in this window I ensured the version portion is selected as Other Windows
    <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/fa3a56dd-a3df-4910-afd2-c96a42fddc7d" height ="80%" width ="90%" alt ="Naming your domain controller">
   </li>
   <br/>
@@ -140,6 +140,8 @@ of RAM to my DC.
     </li>
   <br />
   <br />
+
+  # Renaming the two NICS
    <li>The next step is to identify between the two NICS which one is for the internal network and which one is for the external network.How we will do this is by right clicking on one of the  NICS and then selecting status and then details then observing the addressing information. If the IP addreess
     on the NIC starts with 10.0. (most probably be 10.0.2.15) this would indicate the NIC is external and for connectivity to the internet. Right click on the said NIC and rename it to _INTERNET_ for ease of identification and future use. THis has been illustrated below.
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/037f6dda-d613-41c5-8b1f-938c2d7fc9f4" height ="80%" width ="90%" alt ="Renaming the EXTERNAL NIC">
@@ -152,9 +154,12 @@ of RAM to my DC.
     </li>
   <br />
   <br />
-     <li>The next step will be to rename the PC, Right click start Menu > System > Click rename this PC(Easiest way to do this you can still go the longer route via settings and about).We can opt to name this "DC"(for domain controller) click Next and Click Restart Now.
+
+  # Renaming the PC
+  <li>The next step will be to rename the PC, Right click start Menu > System > Click rename this PC(Easiest way to do this you can still go the longer route via settings and about).We can opt to name this "DC"(for domain controller) click Next and Click Restart Now.
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c8360b5d-fdc2-47f9-9b6b-3f2abb0d0078" height ="80%" width ="90%" alt ="Renaming PC">
     </li>
+   
   <br />
   <br />
       <li>The next step will be assign an IP address to our internal NIC as well as our DNS server.We will click on the ethernet ICON on the taskbar on the bottom and navigate to our two NICS(by clicking on change adapter options).Follow the steps in the image
@@ -251,7 +256,6 @@ of RAM to my DC.
    <br />
    <br />
   </li>
- </ol>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
