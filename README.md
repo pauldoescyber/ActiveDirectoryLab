@@ -286,7 +286,7 @@ of RAM to my DC.
    <br />
   </li>
   <li>
-   Once this has been completed.On the Server Dashboard select tools > Routing and Remote Acess. If the DC local has a red dot on  the symbol do the following. Right click it and press configure and enable routing and remote access and it should open  a Routing and Remote Acess server setup wizard.Inside the setup wizard select next, and in the configuration options select NAT and click next. Under Nat internet connection you may not be able to access the first option(
+   Once this has been completed.On the Server Dashboard select tools > Routing and Remote Acess. If the DC local has a red dot on  the symbol do the following. Right click it and press configure and enable routing and remote access and it should open  a Routing and Remote Acess server setup wizard.Inside the setup wizard select next, and in the configuration options select NAT and click next. Under Nat internet connection you may not be able to access the first option(use this public interface to connect to the internet) to fix this cancel and leave the wizard setup and go through the above steps again until you reach the Nat internet connection option within the wizard.(Unsure why this occurs)
   </li>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
