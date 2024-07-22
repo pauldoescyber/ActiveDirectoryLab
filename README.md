@@ -217,6 +217,8 @@ of RAM to my DC.
     </li>
   <br />
   <br />
+
+  # Creating a dedicated Admin domain account
   <li>The next step would be to create our own dedicated Admin domain account instead of using the built in Admin account. To do this we go to start Admin tools > Active directory Users and Computers. Right click mydomain.com and then New and then create Organizational Unit(An Organizational Unit in Active directory is a subdivision in AD which you can place other users, computers or other organizational units (its kind of like a directory). Name it _ADMINS and uncheck the container from accidental deletion(for convience reasons).Right click on the new OU you have just creates the _ADMINS then click on new and then user. Provide your first and last name, for the user name the best practice is a- followed by  initial of first name, followed by lastname(in full). Press next for the passoword section enter password one just for this lab.Uncheck user must change password in next login and check password never expires box.Click next and on finally click finish. The series of images below convey the following steps.
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/e2b76986-2bbc-4017-930d-95c01f0f6eb1" height ="80%" width ="90%" alt ="Navigating to AD users and computers">
    <br />
@@ -261,6 +263,8 @@ of RAM to my DC.
     </li>
   <br />
   <br />
+  
+  # Configuring RAT/NAS
   <li>
    The next thing to do is to configure RAT/NAS (Remote Acess Server/Network Address translation) on your server to allow members of your domain to conncet to the interntet via the domain controller still whilst on the private network. We will go to (in server manager) add roles and features click on next a couple of times, select the current server. For roles select remote access. Click on next and check the box for routing. Click on next a couple of times then click install The series of images show the following processes.
    <br />
