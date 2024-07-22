@@ -281,6 +281,12 @@ of RAM to my DC.
      <img src ="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/83028ec7-6dd2-446c-a928-5811d194aa7d" height ="80%" width ="90%" alt="Selecting the Routing option under role option">
    <br />
    <br />
+   <img src ="https://github.com/user-attachments/assets/d5ddd35b-f4cc-4ac5-8c07-fbbcc54524e9" height ="80%" width ="90%" alt="Complete-installation-RAT">
+   <br />
+   <br />
+  </li>
+  <li>
+   Once this has been completed.On the Server Dashboard select tools > Routing and Remote Acess. If the DC local has a red dot on  the symbol do the following. Right click it and press configure and enable routing and remote access and it should open  a Routing and Remote Acess server setup wizard.Inside the setup wizard select next, and in the configuration options select NAT and click next. Under Nat internet connection you may not be able to access the first option(
   </li>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
