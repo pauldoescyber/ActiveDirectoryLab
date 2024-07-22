@@ -162,12 +162,16 @@ of RAM to my DC.
    
   <br />
   <br />
-      <li>The next step will be assign an IP address to our internal NIC as well as our DNS server.We will click on the ethernet ICON on the taskbar on the bottom and navigate to our two NICS(by clicking on change adapter options).Follow the steps in the image
-       below from step one through six.
-        <video  height = "80%" width ="90%" controls> <source="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/898a0ce2-1137-4689-b106-9efb5dbba035" type ="video/mp4"> </video>
+      <li>The next step will be assign an IP address to our internal NIC as well as our DNS server.We will click on the ethernet ICON on the taskbar on the bottom and navigate to our two NICS(by clicking on change adapter options).Follow the steps in the image below from step one through six.
+      <img src="https://github.com/user-attachments/assets/27f90dfe-9dff-4de3-815e-92de1619faf5" height ="80%" width ="90%" alt ="IP addressing of NIC(0)">
+      <br />
+      <br />
+            <img src="https://github.com/user-attachments/assets/13483bce-e587-4150-9d2a-6acae574244a" height ="80%" width ="90%" alt ="IP addressing of NIC(1)">
     </li>
   <br />
   <br />
+
+
   # Setting up Active Directory Domain Services (AD DS)
   <li>The next step will be to install Active Directory domain services (AD DS) and then create a domain.On the server manager , 1.click add roles and features, 2.click on next until when asked which server you would like to install the feature on and as you have only one server click on it and select next as illustrated. 3.Click on next and check the Active Directory Domain services box 4.Click Next until you arrive at the installing page and then click install. The successful installation page has been demonstrated as well
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/671ff7eb-b7c3-4689-bcd1-42e548078e67" height ="80%" width ="90%" alt ="Adding
