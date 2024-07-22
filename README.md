@@ -25,21 +25,26 @@ Project overview: <br/>
 " height="80%" width="80%" alt="ADlab project overview"/>
 <br />
 <br />
-The first thing to do is download <a href="https://www.virtualbox.org/wiki/Downloads">virtual box</a> depending on the version of
- your OS <br/>
+ 
+ # Downloading the enviroment
+The first thing I did is to download <a href="https://www.virtualbox.org/wiki/Downloads">virtual box</a> <br/>
 <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/ac28e79d-b991-48b2-a4f5-41fe060cc252" height="80%" width="80%" alt="Downloading virtual box"/>
 <br />
 <br />
-Next we will download <a href='https://www.microsoft.com/en-us/software-download/windows10ISO'>windows 10</a> ISO that will serve as the client... <br/>
+
+ # Downloading the Operating Systems.
+ I downloaded the  <a href='https://www.microsoft.com/en-us/software-download/windows10ISO'>windows 10</a> ISO that will serve as the client... <br/>
 <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/c0dc0220-945b-489b-b490-94c3dca9ad61"
  height="80%" width="80%" alt="Downloading Windows 10 ISO"/>
 <br />
 <br />
-Next we will download <a href ="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows server 2019 ISO </a>   <br/>
+Next I downloaded the  <a href ="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows server 2019 ISO that will serve as the Domain controller </a>   <br/>
 <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/1e6a9319-74ac-4a84-8076-e31fdd23b719" height="80%" width="80%" alt="Downloading Windows server 2019"/>
 <br />
 <br />
-The next step will be to set up our virtual machine using virtual box and  we will set up the Domain controller first:  <br/>
+
+# Setting up the virtual machine.
+Next I set up my virtual machine using virtual box and I set up the Domain controller first:  <br/>
  This will include the following series of steps:
  <br />
  <br />
