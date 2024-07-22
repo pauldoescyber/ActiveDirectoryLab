@@ -305,9 +305,11 @@ of RAM to my DC.
 <br />
  <img src="https://github.com/user-attachments/assets/a6e66503-c9c3-46cb-9fc7-c4c2c2ecd785" height="80%" width="80%" alt="Routing and remote access(4)"/>
 <br />
-<br />
-  
+<br /> 
   </li>
+
+ # Setting up DHCP
+ Next we will set
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
