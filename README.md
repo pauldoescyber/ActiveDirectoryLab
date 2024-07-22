@@ -309,8 +309,14 @@ of RAM to my DC.
   </li>
 
  # Setting up DHCP
- Next we will set
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Next we will set up DHCP for IP address assignment by the domain controller.For setting up these services most of the intial steps are similar and this is no different. So on the server manager dashboard Select Add roles and feaures > Click on next a couple of times until you arrive at Select server role. At this point check the DHCP server box. Select the add features button. And Press Next a couple of times until the installation window where you click install and allow it to install. The screenshots highlight the following steps
+<img src="https://github.com/user-attachments/assets/3c664273-50b7-4e5d-9dcf-a002d84b8a4b" height="80%" width="80%" alt="DHCP server installation(0)"/>
+<br />
+<br />
+<img src="https://github.com/user-attachments/assets/323fedf5-b35d-4fa7-bad2-65a33e668d93" height="80%" width="80%" alt="DHCP server installation(1)"/>
+<br />
+<br />
+<img src="https://github.com/user-attachments/assets/17319d40-64fa-4c19-83d0-ca1e3a2dec89" height="80%" width="80%" alt="DHCP server installation(2)"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>
