@@ -186,12 +186,29 @@ of RAM to my DC.
     </li>
   <br />
   <br />
+  
+  # Post Deployment configuration of AD DS
    <li>Still on your windows server manager you will notice a yellow caution sign on the flag. As demonstrated below, this flag  shows that we installed the softwate but we did not actually create/configure our domain and hence this needs to be done as well.The flag is shown on the figure below
         <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/bfe158d1-c07c-418e-9e5b-9766947af6cc" height ="80%" width ="90%" alt ="Flag denoting lack of postdeployment configuration">
     </li>
   <br />
   <br />
-   <li>The next step will be post deployment configuration, here we will actually create the domain via the following steps: 1. Click the yellow caution sign and select promote this server to a doman controller. 2. Add new forest 3. Name the domain mydomain.com(can be named anything in reality but just for the sake of the lab we shall name it mydomain.com) 4. Click on Next, when asked for a Password enter "Password 1" as we discussed earlier all passwords in the lab to be password 1. 5. Click on next until the Installation point, When it finishes intalling it will automatically restart the computer for us.
+   <li>The next step will be post deployment configuration, here we will actually create the domain via the following steps: 1. Click the yellow caution sign and select promote this server to a doman controller. 2. Add new forest 3. Name the domain mydomain.com(can be named anything in reality but just for the sake of the lab we shall name it mydomain.com) 4. Click on Next, when asked for a Password enter "Password 1" as we discussed earlier all passwords in the lab to be password 1. 5. Click on next until the Installation point, When it finishes intalling it will automatically restart the computer for us.The series of images highlight the key elements of this process.
+      <img src="https://github.com/user-attachments/assets/eea6bf77-6eab-46cf-892a-3635e53f8826" height ="80%" width ="90%" alt ="Post-deployment-configuration(0)">
+   <br />
+   <br />
+      <img src="https://github.com/user-attachments/assets/5cad45e4-3ad9-4177-b2d3-369fda0b5218" height ="80%" width ="90%" alt ="Post-deployment-configuration(1)">
+   <br />
+   <br />
+      <img src="https://github.com/user-attachments/assets/61ad36b0-258f-4038-b726-eeff7cc8ffde" height ="80%" width ="90%" alt ="Post-deployment-configuration(2)">
+   <br />
+   <br />
+      <img src="https://github.com/user-attachments/assets/d774a7f9-9de8-427b-9920-e7ffc854b11b" height ="80%" width ="90%" alt ="Post-deployment-configuration(3)">
+   <br />
+   <br />
+      <img src="https://github.com/user-attachments/assets/0e0cc1c9-487b-4950-9a17-6a5c0e6fc120" height ="80%" width ="90%" alt ="Post-deployment-configuration(4)">
+   <br />
+   <br />
     </li>
   <br />
   <br />
