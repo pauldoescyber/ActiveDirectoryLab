@@ -286,7 +286,27 @@ of RAM to my DC.
    <br />
   </li>
   <li>
-   Once this has been completed.On the Server Dashboard select tools > Routing and Remote Acess. If the DC local has a red dot on  the symbol do the following. Right click it and press configure and enable routing and remote access and it should open  a Routing and Remote Acess server setup wizard.Inside the setup wizard select next, and in the configuration options select NAT and click next. Under Nat internet connection you may not be able to access the first option(use this public interface to connect to the internet) to fix this cancel and leave the wizard setup and go through the above steps again until you reach the Nat internet connection option within the wizard.(Unsure why this occurs)
+   Once this has been completed.On the Server Dashboard select tools > Routing and Remote Acess. If the DC local has a red dot on  the symbol do the following. Right click it and press configure and enable routing and remote access and it should open  a Routing and Remote Acess server setup wizard.Inside the setup wizard select next, and in the configuration options select NAT and click next. Under Nat internet connection you may not be able to access the first option(use this public interface to connect to the internet) to fix this cancel and leave the wizard setup and go through the above steps again until you reach the Nat internet connection option within the wizard.(Unsure why this occurs).Once you have done this select this
+   option (use this public interface to connect to the internet) and make sure you select the nic that we had named for connecting to the internet.. for us its the INTERNET NIC then select the next option and finally select the Finish option.
+   The series of images highlights the following above process.
+   <br />
+   <br />
+   <img src="https://github.com/user-attachments/assets/7275e9bc-ca00-406c-a4fc-4d1fdaa8ab7a" height="80%" width="80%" alt="Routing and remote access(0)"/>
+<br />
+<br />
+ <img src="https://github.com/user-attachments/assets/94b1bda7-0929-4b90-8dcb-0ebd49da3a87" height="80%" width="80%" alt="Routing and remote access(1)"/>
+<br />
+<br />
+ <img src="https://github.com/user-attachments/assets/a3aab588-86a4-4e5e-b9f5-2b24bc2b9beb" height="80%" width="80%" alt="Routing and remote access(2)"/>
+<br />
+<br />
+ <img src="https://github.com/user-attachments/assets/b3182b9d-ce3c-4c76-9bb9-e63a71633bb0" height="80%" width="80%" alt="Routing and remote access(3)"/>
+<br />
+<br />
+ <img src="https://github.com/user-attachments/assets/a6e66503-c9c3-46cb-9fc7-c4c2c2ecd785" height="80%" width="80%" alt="Routing and remote access(4)"/>
+<br />
+<br />
+  
   </li>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
