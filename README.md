@@ -199,9 +199,9 @@ of RAM to my DC.
       <img src="https://github.com/user-attachments/assets/5cad45e4-3ad9-4177-b2d3-369fda0b5218" height ="80%" width ="90%" alt ="Post-deployment-configuration(1)">
    <br />
    <br />
-      <img src="https://github.com/user-attachments/assets/61ad36b0-258f-4038-b726-eeff7cc8ffde" height ="80%" width ="90%" alt ="Post-deployment-configuration(2)">
+<!--       <img src="https://github.com/user-attachments/assets/61ad36b0-258f-4038-b726-eeff7cc8ffde" height ="80%" width ="90%" alt ="Post-deployment-configuration(2)">
    <br />
-   <br />
+   <br /> -->
       <img src="https://github.com/user-attachments/assets/d774a7f9-9de8-427b-9920-e7ffc854b11b" height ="80%" width ="90%" alt ="Post-deployment-configuration(3)">
    <br />
    <br />
@@ -341,6 +341,7 @@ below.(You can leave the description blank)
  <br />
  <br />
  For lease durations (which denotes how long a certain device can have an IP addressed before the it is dropped and returned to the Pool and the device there after would need to request for a new IP address) in our use case we will allow the lease duration to remain at 8 days.Do this and then click next
+ <br />
 <img src="https://github.com/user-attachments/assets/ebd4002d-12de-48b4-b428-18ec759ac4cb" height="80%" width="80%" alt="DHCP scope(3)"/>
 <br />
 <br />
@@ -371,6 +372,7 @@ below.(You can leave the description blank)
  <li>
   The first thing we wil do here is donwload the zip from the following site https://github.com/joshmadakor1/AD_PS/archive/master.zip in our Domain controller and extract the files as shown below.(if we run into trouble with browsing on Internet explorer which we
   most likely will, go to configure this local server on server manager.Look for IE Enhanced Security configuration and turn it off, this is not something that would be recommended for an actual production)
+  <br/>
      <img src="https://github.com/user-attachments/assets/ebc8a491-831b-456e-a620-c1bc6ddc425c" height ="80%" width="80%" alt="Powershell(0)">
      <br />
      <br />
@@ -378,23 +380,92 @@ below.(You can leave the description blank)
  <li>
   Once we extract the AD_PS master folder onto the Desktop we open the names.txt folder and add our names onto it(it can be any name).This is the file our powershell script will obtain names from to add users onto our domain.This is shown below: ensure you save
   the changes you make to this file.
-  
+  <br />
   <img src="https://github.com/user-attachments/assets/43b7a949-35a4-4f48-9c18-d2911e7e7c32" height ="80%" width="80%" alt="Powershell(1)">
      <br />
      <br />
  </li>
  <li>
   Next navigate to Windows Powershell ISE(click on start > Windows Powershell > Windows Powershell ISE) once here. Right click  Windows Powershell ISE and select more and then Run as administrator as show below.
+  <br />
     <img src="https://github.com/user-attachments/assets/620ead2e-fce4-4270-b2aa-372e9962f6a6" height ="80%" width="80%" alt="Powershell(2)">
   <br />
   <br />
-  
+ </li>
+ <li>
+  Inside Windows Powershell script at the top bar select the open script button denoted by a yellow folder icon and navigate to the AD_PS master file and then to the CREATE USERS file that you had earlier downloaded(it is in the same folder as the names file).This has been demonstrated below:
+  <br />
+   <img src="https://github.com/user-attachments/assets/5cfca9d2-a2e2-45f2-97a5-28d333d8b2e5" height ="80%" width="80%" alt="Powershell(3)">
+  <br />
+  <br />
+ </li>
+ <li>
+  Before we can run out script,security features of our server will prevent this from happening and so to get around thise we need to run the command <code>Set-ExecutionPolicy Unrestricted</code> and when asked about the execution policy change select the
+  Yes to all option as shown below.
+  <br />
+   <img src="https://github.com/user-attachments/assets/acfad5e1-28b3-4852-9715-b6f939764971" height ="80%" width="80%" alt="Powershell(4)">
+  <br />
+  <br />
+ </li>
+ <li>
+  The final thing before we run the script is to navigate to the directory the file names is (which should be in the same directory as the CREATE USERS AD_PS master) To do this enter the command<code> cd(for change direcrory)  C:\Users\(username for me it was a-pisaac)\Desktop(or Downloads depending on where you stored this file)\AD_PS-master</code>. We can then run the <code>ls</code> command to verify that names.txt is in the directory. The screenshot below showes this information
+  <br />
+   <img src="https://github.com/user-attachments/assets/1a9941ad-bc0b-4eaa-8668-c2f57c7f4285" height ="80%" width="80%" alt="Powershell(5)">
+  <br />
+  <br />
+ </li>
+ <li>
+  To run the script press the green play button at the top bar and when prompted with the security warning  select the Run once option.
+     <img src="https://github.com/user-attachments/assets/f4cb7b12-ee8e-43fd-b284-830abff6f1ee" height ="80%" width="80%" alt="Powershell(6)">
+     <br />
+     <br />
+ </li>
+ <li>
+  If the above steps went well we see the following display as the accounts are created as a result of running the powershell script
+  <img src="https://github.com/user-attachments/assets/cb2c7b0b-0155-43cf-a380-948093c13141" height ="80%" width="80%" alt="Powershell(7)">
+     <br />
+     <br />
+ </li>
+ <li>
+  To confirm that new users have been added to our domain we can navigate to Active Directory Users and computers and in our domain which in our case is (mydomain.com) under USERS we should be able to view a list of many new users added to the domain as shown
+  below.
+  <img src="https://github.com/user-attachments/assets/d92f9f59-95cf-47be-be6d-41c81e744c3c" height ="80%" width="80%" alt="Powershell(8)">
+     <br />
+     <br />
  </li>
 
+ # Creating the Windows 10 client
+ <li>
+  The steps here will be a bit similar to how we set up our server on oracle. Here We can name our windows machine client1 doesn't really matter to be honest. We can also ensure we provide the path file for our ISO Image As shown below
+  <img src="https://github.com/user-attachments/assets/11c1499a-f373-41ba-ae31-915eb64991d1" height ="80%" width="80%" alt="Windows10vm(0)">
+     <br />
+     <br />
+ </li>
+<li>
+ When it comes to RAM allocation as mentioned earlier  we will need to have both machines running at the same time so be mindful if the total ram allocated to both machines is more than 50% of  you entire RAM one of the machines will automatically shut down so to avoid this depending on your device allocate RAM sparingly. 
+<img src="https://github.com/user-attachments/assets/503af122-cd15-48e5-9506-65e795190632" height ="80%" width="80%" alt="Windows10vm(1)">
+     <br />
+     <br />
+</li>
+<li>
+ Navigate to Network and change your network adapter from NAT to being attached to Internal Network this is because we are trying to obtain an IP address from our Domain controller as our DHCP server. This has been illustrated below.
+ <img src="https://github.com/user-attachments/assets/0e829cd0-cc5f-448b-b024-442123398e9b" height ="80%" width="80%" alt="Windows10vm(2)">
+     <br />
+     <br />
+</li>
+<li>
+ Honorable mention. Incase you're asked for a product key you can indicate you lack one.
+</li>
+<br/>
+<br/>
+<li>
+ For selecting the Operating system you wasnt to install Select the WINDOWS 10 prov version as shown.
+  <img src="https://github.com/user-attachments/assets/ec55ca7b-846b-4a0e-b569-69a304f6460b" height ="80%" width="80%" alt="Windows10vm(3)">
+     <br />
+     <br />
+</li>
 
 
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
