@@ -21,8 +21,7 @@ In this lab, I replicated a small office  network by using virtual machines (vir
 
 <p align="center">
 Project overview: <br/>
-<img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/a90d966f-e879-441a-aa42-50636e0eb665"
-" height="80%" width="80%" alt="ADlab project overview"/>
+<img src="https://github.com/user-attachments/assets/0bd3d6fe-1a2c-43ff-8640-8efb39a313c1" height="100%" width="100%" alt="ADlab project overview"/>
 <br />
 <br />
  
