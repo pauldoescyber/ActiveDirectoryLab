@@ -383,6 +383,13 @@ below.(You can leave the description blank)
      <br />
      <br />
  </li>
+ <li>
+  Next navigate to Windows Powershell ISE(click on start > Windows Powershell > Windows Powershell ISE) once here. Right click  Windows Powershell ISE and select more and then Run as administrator as show below.
+    <img src="https://github.com/user-attachments/assets/620ead2e-fce4-4270-b2aa-372e9962f6a6" height ="80%" width="80%" alt="Powershell(2)">
+  <br />
+  <br />
+  
+ </li>
 
 
 
