@@ -321,7 +321,17 @@ of RAM to my DC.
 The next step would be to set up DHCP scope.For this on the server dashboard  select tools > DHCP.Notice the DHCP server is now named as dc.mydomain.com. Upon clicking it we note that that both the IPv4 and IPV6 icons are down(denoted by the red dot as show below)
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="DHCP scope(0)"/>
+<img src="https://github.com/user-attachments/assets/6e00b886-58a4-4040-9e79-d8e89c7387bb" height="80%" width="80%" alt="DHCP scope(0)"/>
+<br />
+<br />
+Right click on the IPv4 Icon and select new scope and this should lead you into the New Scope Wizard. When prompted to provide a name for the scope for this lab we will name the scope after the IP ranges which for us will be 172.16.0.100-200 and click next as shown
+below.(You can leave the description blank)
+<br />
+<br />
+<img src="https://github.com/user-attachments/assets/a9988fc5-f408-456b-afae-67d95213b4e1" height="80%" width="80%" alt="DHCP scope(1)"/>
+<br />
+<br />
+
 
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
