@@ -308,7 +308,7 @@ of RAM to my DC.
   </li>
 
  # Setting up DHCP
- Next we will set up DHCP for IP address assignment by the domain controller.For setting up these services most of the intial steps are similar and this is no different. So on the server manager dashboard Select Add roles and feaures > Click on next a couple of times until you arrive at Select server role. At this point check the DHCP server box. Select the add features button. And Press Next a couple of times until the installation window where you click install and allow it to install. The screenshots highlight the following steps
+<li> Next we will set up DHCP for IP address assignment by the domain controller.For setting up these services most of the intial steps are similar and this is no different. So on the server manager dashboard Select Add roles and feaures > Click on next a couple of times until you arrive at Select server role. At this point check the DHCP server box. Select the add features button. And Press Next a couple of times until the installation window where you click install and allow it to install. The screenshots highlight the following steps
 <img src="https://github.com/user-attachments/assets/3c664273-50b7-4e5d-9dcf-a002d84b8a4b" height="80%" width="80%" alt="DHCP server installation(0)"/>
 <br />
 <br />
@@ -331,6 +331,59 @@ below.(You can leave the description blank)
 <img src="https://github.com/user-attachments/assets/a9988fc5-f408-456b-afae-67d95213b4e1" height="80%" width="80%" alt="DHCP scope(1)"/>
 <br />
 <br />
+ The next step wil be to provide the IP range for our case our start IP address will be 172.16.0.100 and our end address will be 172.16.0.200.Our subnet maskt should be set 255.255.255.0 or /24 as well. This is shown in the screen shot below.
+ <br />
+<br />
+ <img src="https://github.com/user-attachments/assets/b46df56d-72a8-458c-973d-87a38e4212e5" height="80%" width="80%" alt="DHCP scope(2)"/>
+<br />
+<br />
+ For the Add exclusions and Delay do not provide information and select Next as for this lab we do not want to add any exclusions.
+ <br />
+ <br />
+ For lease durations (which denotes how long a certain device can have an IP addressed before the it is dropped and returned to the Pool and the device there after would need to request for a new IP address) in our use case we will allow the lease duration to remain at 8 days.Do this and then click next
+<img src="https://github.com/user-attachments/assets/ebd4002d-12de-48b4-b428-18ec759ac4cb" height="80%" width="80%" alt="DHCP scope(3)"/>
+<br />
+<br />
+ For configure DHCP Options Select the Yes, I want to configure these options now option.
+ <br />
+ <br />
+ For the Router/Default Gateway provide the IP address for the DC 172.16.0.1 and select the add button. as shown below.
+ <img src="https://github.com/user-attachments/assets/fab7b9ee-919b-4ba0-b8e3-b8bd39a8108d" height ="80%" width="80%" alt="DHCP scope(4)">
+ <br />
+ <br />
+ In the Domain Name and DNS server section there is no need to provide any information as just press Next. This is because the DC server will act as the DNS server as shown below.
+  <img src="https://github.com/user-attachments/assets/516dad97-3c5d-4e70-81fd-a6416918a194" height ="80%" width="80%" alt="DHCP scope(5)">
+<br />
+<br />
+ Skip the WINS server section and just click next.
+ <br />
+ <br />
+ When asked if you want to activate the scope now select the yes option and finally click on Finish.
+ <br/>
+ <br />
+ The final step would be to right click the DHCP server and select authorize, then right click the DHCP server again and select refresh. If the process was smooth the IPv4 and IPv6 icons should light up green as shown in the screenshot below.
+ <br />
+ <br />
+   <img src="https://github.com/user-attachments/assets/1c15ea0d-3e3f-427f-aa38-30573fe28471" height ="80%" width="80%" alt="DHCP scope(6)successful configuration of DHCP">
+ </li>
+
+ # Using Powershell to add users to the Domain.
+ <li>
+  The first thing we wil do here is donwload the zip from the following site https://github.com/joshmadakor1/AD_PS/archive/master.zip in our Domain controller and extract the files as shown below.(if we run into trouble with browsing on Internet explorer which we
+  most likely will, go to configure this local server on server manager.Look for IE Enhanced Security configuration and turn it off, this is not something that would be recommended for an actual production)
+     <img src="https://github.com/user-attachments/assets/ebc8a491-831b-456e-a620-c1bc6ddc425c" height ="80%" width="80%" alt="Powershell(0)">
+     <br />
+     <br />
+ </li>
+ <li>
+  Once we extract the AD_PS master folder onto the Desktop we open the names.txt folder and add our names onto it(it can be any name).This is the file our powershell script will obtain names from to add users onto our domain.This is shown below: ensure you save
+  the changes you make to this file.
+  
+  <img src="https://github.com/user-attachments/assets/43b7a949-35a4-4f48-9c18-d2911e7e7c32" height ="80%" width="80%" alt="Powershell(1)">
+     <br />
+     <br />
+ </li>
+
 
 
 Observe the wiped disk:  <br/>
