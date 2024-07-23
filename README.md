@@ -21,7 +21,7 @@ In this lab, I replicated a small office  network by using virtual machines (vir
 
 <p align="center">
 Project overview: <br/>
-<img src="https://github.com/user-attachments/assets/0bd3d6fe-1a2c-43ff-8640-8efb39a313c1" height="100%" width="100%" alt="ADlab project overview"/>
+<img src="https://github.com/user-attachments/assets/3770756c-5856-441a-b461-2147c82433c7" height="100%" width="100%" alt="ADlab project overview"/>
 <br />
 <br />
  
@@ -318,6 +318,7 @@ of RAM to my DC.
 <img src="https://github.com/user-attachments/assets/17319d40-64fa-4c19-83d0-ca1e3a2dec89" height="80%" width="80%" alt="DHCP server installation(2)"/>
 <br />
 <br />
+The next step would be to set up DHCP scope.For this on the server dashboard  select tools > DHCP.
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
