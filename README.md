@@ -318,7 +318,11 @@ of RAM to my DC.
 <img src="https://github.com/user-attachments/assets/17319d40-64fa-4c19-83d0-ca1e3a2dec89" height="80%" width="80%" alt="DHCP server installation(2)"/>
 <br />
 <br />
-The next step would be to set up DHCP scope.For this on the server dashboard  select tools > DHCP.
+The next step would be to set up DHCP scope.For this on the server dashboard  select tools > DHCP.Notice the DHCP server is now named as dc.mydomain.com. Upon clicking it we note that that both the IPv4 and IPV6 icons are down(denoted by the red dot as show below)
+<br />
+<br />
+<img src="" height="80%" width="80%" alt="DHCP scope(0)"/>
+
 Observe the wiped disk:  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
