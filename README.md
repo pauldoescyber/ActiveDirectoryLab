@@ -53,8 +53,8 @@ Next I set up my virtual machine using virtual box and I set up the Domain contr
   </li>
   <br/>
   <br />
-   <li>Next is RAM allocation here it depends on your device.. considering later on in this project we will need to have both your DC and Client runnig I would suggest being conservative 
-    with your RAM however for  the most part we alternate between the virtual machines so for me with 8GB of ram I decied to allocate 2GB 
+   <li>Next is RAM allocation here it depends on your device.. considering at the nearly the  end of  this project we will need to have both your DC and Client runnig I would suggest being conservative 
+    with your RAM however for  the most part we work on the Domain controller so for me with 8GB of ram I decied to allocate 2GB 
 of RAM to my DC.
    <img src="https://github.com/pauldoescyber/ActiveDirectoryLab/assets/172483061/6fd66870-a7df-48b9-b3d6-74cc2d5cf732" height ="80%" width ="90%" alt ="RAM ALLOCATION">
   </li>
