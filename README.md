@@ -460,11 +460,54 @@ below.(You can leave the description blank)
 <br/>
 <li>
  For selecting the Operating system you wasnt to install Select the WINDOWS 10 prov version as shown.
-  <img src="https://github.com/user-attachments/assets/ec55ca7b-846b-4a0e-b569-69a304f6460b" height ="80%" width="80%" alt="Windows10vm(3)">
+  <img src="https://github.com/user-attachments/assets/b0d45ce2-86e1-4aa3-900e-cef3387a6686" height ="80%" width="80%" alt="Windows10vm(3)">
      <br />
      <br />
 </li>
+<li>
+When asked whether you want to add a second keyboard layout we can just select skip
+  <img src="https://github.com/user-attachments/assets/ec55ca7b-846b-4a0e-b569-69a304f6460b" height ="80%" width="80%" alt="Windows10vm(4)">
+     <br />
+     <br />
+</li>
+<li>
+ When we are askt to connect to a network select the I don't have internet option at the bottom
+ part of the scren as show below.
+  <img src="https://github.com/user-attachments/assets/bd40d34f-bb9c-433a-a6f5-0561159ef1db" height ="80%" width="80%" alt="Windows10vm(5)">
+     <br />
+     <br />
+</li>
+<li>
+ On the next Window that says there is more to discover select the continute with limted setup option at the bottom left portion of your screen
+ <img src="https://github.com/user-attachments/assets/5b1c7c8e-78e4-4357-bacb-ac53105e18c9" height ="80%" width="80%" alt="Windows10vm(6)">
+     <br />
+     <br />
+</li>
+<li>
+ On the next Window that is asking who is using the PC we can indicate "user"
+ <img src="https://github.com/user-attachments/assets/e9a3c47e-228c-439e-b462-7c6655f22a0b" height ="80%" width="80%" alt="Windows10vm(7)">
+     <br />
+     <br />
+</li>
+<li>
+ On the next Window that asks for  a password we probably don't need a password for now
+ so you can just click on next leaving the space blank"
+ <br />
+ <br />
+ <img src="https://github.com/user-attachments/assets/b0acf9a0-cd5a-4944-a436-2cb5679e196f" height ="80%" width="80%" alt="Windows10vm(8)">
+     <br />
+     <br />
+</li>
+li>
+ The final step of our project is to test the connectivity on ourclient. on the windows10 client ping a certain website for in this case we decided to ping
+ google with the following command <code>ping www.google.com</code> and if all has gone well you should recieve a reply proving that the DNS, DHCP, RAT/NAS and AD DS configurations are okay.Thanks for getting this far into my project I hope you had fun!
 
+ <br />
+ <br />
+ <img src="https://github.com/user-attachments/assets/68ecd58f-204e-4b50-83ba-78eaa11b2f21" height ="80%" width="80%" alt="Windows10vm(9)">
+     <br />
+     <br />
+</li>
 
 </p>
 
