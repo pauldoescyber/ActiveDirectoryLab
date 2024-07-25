@@ -498,7 +498,7 @@ When asked whether you want to add a second keyboard layout we can just select s
      <br />
      <br />
 </li>
-li>
+<li>
  The final step of our project is to test the connectivity on ourclient. on the windows10 client ping a certain website for in this case we decided to ping
  google with the following command <code>ping www.google.com</code> and if all has gone well you should recieve a reply proving that the DNS, DHCP, RAT/NAS and AD DS configurations are okay.Thanks for getting this far into my project I hope you had fun!
 
