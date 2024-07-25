@@ -328,7 +328,7 @@ Right click on the IPv4 Icon and select new scope and this should lead you into 
 below.(You can leave the description blank)
 <br />
 <br />
-<img src="https://github.com/user-attachments/assets/a9988fc5-f408-456b-afae-67d95213b4e1" height="80%" width="80%" alt="DHCP scope(1)"/>
+<img src="https://github.com/user-attachments/assets/6acc1b0e-0760-4e98-ab1d-83b85013d96c" height="80%" width="80%" alt="DHCP scope(1)"/>
 <br />
 <br />
  The next step wil be to provide the IP range for our case our start IP address will be 172.16.0.100 and our end address will be 172.16.0.200.Our subnet maskt should be set 255.255.255.0 or /24 as well. This is shown in the screen shot below.
